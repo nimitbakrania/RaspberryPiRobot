@@ -5,14 +5,6 @@ The output is an array of potential best guess matches. SOPARE works offline
 and was tested successfully on a Raspberry Pi 2/3 and on a Banana Pi.
 
 
-Here is an example output for the spoken words 'light off' in German:
-
-```
- [u'licht', u'aus']
-
-```
-
-
 Scope and goals:
  
   * Real time audio processing
@@ -42,9 +34,7 @@ Dependencies:
 
 Installation:
 
- Just checkout the project and resolve the dependencies:
-
- git clone https://github.com/bishoph/sopare.git
+ Just checkout the project and resolve the dependencies.
 
  Then you should create the following directories:
 
@@ -152,4 +142,3 @@ rm dict/*.raw
 ```
 
 
-Find more detailed information on http://www.bishoph.org
